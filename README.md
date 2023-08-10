@@ -1,6 +1,8 @@
 <h1>Introdução à computação (em Python)</h1>
 Resolução de exercícios em python propostos na cadeira de introdução à computação (ICC - UECE) no semestre 2022.1.
 
+Além disso, há alguns exercícios que usei para praticar oriundos do curso de python do canal Curso em Vídeo.
+
 # Listas
 + Exercícios 1 (básico de python e conversões) - [pdf](https://github.com/LayzaCarneiro/introComputacao-uece/files/12308901/Exercicios1.pdf)
 + Exercícios 2 (strings) - [pdf](https://github.com/LayzaCarneiro/introComputacao-uece/files/12308903/Exercicios2.pdf)
