@@ -1,3 +1,5 @@
+# Questão 2
+
 def ordenar(L):
     L1 = L
     L2 = []
@@ -12,6 +14,7 @@ def ordenar(L):
                 if i < L2[n]:
                     L2.insert(n, i)
                     break
+
     return(L2)
 
 L1 = [12, 25, 1, 74, 90, 7, 102, 0.5, 24]

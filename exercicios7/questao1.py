@@ -1,4 +1,5 @@
-#Questão 1
+# Questão 1
+
 def raiz(num, erro):
     num = num
     erro = erro
@@ -28,33 +29,27 @@ def raiz(num, erro):
     else:
         return('O número inserido tem que ser um número positivo.')
 
-#Usuário
-#num = float(input('Número que deseja calcular a raiz: '))
-#erro = float(input('Erro máximo tolerável: '))
-#print(raiz(num, erro))
+# Usuário
+# num = float(input('Número que deseja calcular a raiz: '))
+# erro = float(input('Erro máximo tolerável: '))
+# print(raiz(num, erro))
 
-#Questão 2
-def ordenar(L):
-    L1 = L
-    L2 = []
-    L2.append(L1[0])
-    for i in L1:
-        if i == L2[0]:
-            L2 = L2
-        elif i > L2[len(L2)-1]:
-            L2.append(i)
-        else:
-            for n in range (0, (len(L2))):
-                if i < L2[n]:
-                    L2.insert(n, i)
-                    break
+num1 = 9
+erro1 = 1
+print('Teste 1:', raiz(num1, erro1))
 
-    return(L2)
+num2 = 0.16
+erro2 = 0.0002
+print('Teste 2:',raiz(num2, erro2))
 
-L1 = [12, 25, 1, 74, 90, 7, 102, 0.5, 24]
-L2 = [0.8, 33, 21, 150, 0.01]
-L3 = [1002, 4, 710, 0.2, 2.4, 3000]
+num3 = 4
+erro3 = 0.01
+print('Teste 3:',raiz(num3, erro3))
 
-print('L1: ', ordenar(L1))
-print('L2: ', ordenar(L2))
-print('L3: ', ordenar(L3))
+num4 = 24.5
+erro4 = 0.004
+print('Teste 4:',raiz(num4, erro4))
+
+num5 = 0.25
+erro5 = 0.00002
+print('Teste 5:',raiz(num5, erro5))
